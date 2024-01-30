@@ -42,7 +42,7 @@ These instructions will help you set up and run the CLI web scraper on your loca
 ### index.js
 _here you will need to enter the url and selector together with the node execution command_
 ```bash
->_node index.js --url <your_url> --selector <your_css_selector>_
+node index.js --url <your_url> --selector <your_css_selector>
 ```
 
 ### index_2.js
@@ -50,6 +50,7 @@ _here you will be prompted to enter the url and selector in the CLI after the no
     ```bash
     node index.js
     ```
+
     ```bash
     Enter the URL to scrape: <your_url>
     Enter the CSS selctor to match the element: <your_css_selector>
