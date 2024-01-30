@@ -47,11 +47,11 @@ node index.js --url <your_url> --selector <your_css_selector>
 
 ### index_2.js
 _here you will be prompted to enter the url and selector in the CLI after the node execution command_
-    ```bash
-    node index.js
-    ```
+```bash
+node index.js
+```
 
-    ```bash
-    Enter the URL to scrape: <your_url>
-    Enter the CSS selctor to match the element: <your_css_selector>
-    ```
+```bash
+Enter the URL to scrape: <your_url>
+Enter the CSS selctor to match the element: <your_css_selector>
+```
