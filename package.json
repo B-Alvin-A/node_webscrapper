@@ -1,0 +1,24 @@
+{
+  "name": "node-webscrapper",
+  "version": "1.0.0",
+  "description": "a simple Node.js CLI application using cheerio for HTML parsing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Alvin-A/node_webscrapper.git"
+  },
+  "author": "Earlvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-Alvin-A/node_webscrapper/issues"
+  },
+  "homepage": "https://github.com/B-Alvin-A/node_webscrapper#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "yargs": "^17.7.2"
+  }
+}
