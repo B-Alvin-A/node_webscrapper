@@ -31,8 +31,7 @@ async function scrapeWebPage(url,selector) {
             console.log('No element found with the provided selector')
         }
         else {
-            console.log('Text content of the selected element: ')
-            console.log(selectedElement.text())
+            console.log('Text content of the selected element:', selectedElement.text())
         }
     } catch (err) {
         console.error('Error: ', err.message)
